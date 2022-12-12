@@ -20,7 +20,7 @@ public class ScannerExample1 {
 		System.out.print("값을 입력하시오:");
 		int input1 = sc.nextInt();
 		//입력 받은 정수를 input1에 대입
-		// nextInt() : 다음 입력된 정수를 읽어옴 (키보드로 입력된 정수를 읽어옴)
+		//nextInt() : 다음 입력된 정수를 읽어옴 (키보드로 입력된 정수를 읽어옴)
 		System.out.println(input1);
 		
 		System.out.print ("실수만 입력해:");
@@ -37,6 +37,8 @@ public class ScannerExample1 {
 		System.out.println("입력2:");
 		String input4 = input3 + sc.next();
 		System.out.println (input4);
-	}
+	
+}
 
 }
+

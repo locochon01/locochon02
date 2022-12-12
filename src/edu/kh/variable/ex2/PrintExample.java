@@ -18,32 +18,32 @@ public class PrintExample {
 		int iNum1 = 10;
 		int iNum2 = 5;
 		
-		//10 + 5 = 15
+		10 + 5 = 15
 		System.out.println( iNum1 + "+" + iNum2 + "=" + (iNum1+iNum2));
 		// 길고 오타날 가능성이 다분함
 		
 		//System.out.printf ("패턴", 패턴에 들어갈 값);
-		System.out.printf("%d + %d = %d",iNum1, iNum2, iNum1 + iNum2);
+		//System.out.printf("%d + %d = %d",iNum1, iNum2, iNum1 + iNum2);
 		
 		// printf도 print와 같이 개행이 되지 않기 때문에 // \n과 같은 개행문자 (escape)를 사용하여 다음줄로 개행 가능
 		
 		// 10 + 10 * 5 / 2 = 35
 		
 		
-		System.out.printf("%d + %d * %d / 2 = %d\n", iNum1, iNum1, iNum2, iNum1 + iNum1 * iNum2 / 2);
+		//System.out.printf("%d + %d * %d / 2 = %d\n", iNum1, iNum1, iNum2, iNum1 + iNum1 * iNum2 / 2);
 		
-		int iNum3 = 3;
-		System.out.printf("%5d\n",iNum3); // 5칸 공간 확보 후 오른쪽 정렬
-		System.out.printf("%-5d\n", iNum3); // 5칸 공간 확보 후 왼쪽 정렬
+		//int iNum3 = 3;
+		//System.out.printf("%5d\n",iNum3); // 5칸 공간 확보 후 오른쪽 정렬
+		//System.out.printf("%-5d\n", iNum3); // 5칸 공간 확보 후 왼쪽 정렬
 		
 		// 소수점 자리 제어
-		System.out.printf("%f\n", 2.5); // 2.500000
-		System.out.printf("%.2f\n", 2.5); // 소수점 둘째자리까지만 나타내고 싶다
-		System.out.printf("%.0\n", 2.5); // 소수점 아래 표현 안하겠다
+		//System.out.printf("%f\n", 2.5); // 2.500000
+		//System.out.printf("%.2f\n", 2.5); // 소수점 둘째자리까지만 나타내고 싶다
+		//System.out.printf("%.0\n", 2.5); // 소수점 아래 표현 안하겠다
 		
 		// escape (== 탈출) 문자 : 일반문자가 아닌 특수 문자 표현
-		System.out.println ("\\"); // 백슬래시 출력법 ( 두번 써야 한 번 출력)
-		System.out.println ("a\tb\tc\td"); // tab
+		//System.out.println ("\\"); // 백슬래시 출력법 ( 두번 써야 한 번 출력)
+		//System.out.println ("a\tb\tc\td"); // tab
 		//a   b   c   d
 		
 		
